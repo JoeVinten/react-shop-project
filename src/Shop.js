@@ -1,7 +1,14 @@
 import React from "react";
+import Navigation from "./components/Navigation";
+import Card from "./components/Card";
 
 const Shop = () => {
-  return <div>Hello from the shop</div>;
+  return (
+    <>
+    <Navigation />
+    <Card />
+    </>
+  );
 };
 
 export default Shop;

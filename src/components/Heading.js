@@ -1,5 +1,5 @@
-import React from "react";
-import styled from "styled-components";
+import React from 'react';
+import styled from 'styled-components';
 
 const HeadingStyle = styled.h1`
   text-transform: uppercase;
@@ -27,7 +27,7 @@ const HeadingStyle = styled.h1`
   -moz-text-fill-color: transparent;
   font-size: 3em;
   font-weight: 900;
-  letter-spacing: 1px;
+  letter-spacing: 4px;
 `;
 
 const Heading = () => {

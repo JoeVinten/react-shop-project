@@ -1,6 +1,8 @@
-import styled from "styled-components";
-import Button from "./components/Button";
-import Heading from "./components/Heading";
+import styled from 'styled-components';
+import Button from './components/Button';
+import Heading from './components/Heading';
+import Navigation from './components/Navigation';
+import {Link} from 'react-router-dom'
 
 const HomePageContainer = styled.main`
   margin: 0;
@@ -23,9 +25,12 @@ const ContentSection = styled.div`
 function Home() {
   return (
     <HomePageContainer>
+    <Navigation />
       <ContentSection>
         <Heading />
+        <Link to="/shop">
         <Button text="Shop now" />
+        </Link>
       </ContentSection>
     </HomePageContainer>
   );
